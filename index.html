@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Task 3</title>
+
+    <!-- Bootstrap Css CDN -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Owl Carousel Css Cdn Links -->
+    <!-- 1. Owl Carousel min.css Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 2. Owl Carousel theme default min.css Cdn -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid g-0 ">
+        <!-- Header First -->
+        <div class="row g-0 text-white bcg py-3">
+            <div class="col-md-6 col-8 offset-md-3 text-md-center">Use code FIRST50 for a 50% discount on your first
+                order!</div>
+            <div class="col-md-2 col-sm-3 col-4 ms-auto ms-md-0 text-end ">
+                <span class="me-5"><img src="./asset/shopping.svg" alt="" class="img-fluid"> </span>
+                <span class=""><img src="./asset/contact icon.svg" alt="" class="img-fluid"> </span>
+            </div>
+        </div>
+        <!--   Navbar   -->
+        <nav class="navbar navbar-expand-lg bgcnav">
+            <div class="container-fluid g-0 col-10">
+                <img src="./asset/PAP Logo.svg" class="img-fluid navbar-brand" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2 fw-semibold">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown px-2 fw-semibold">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Plants
+                            </a>
+                            <ul class="dropdown-menu">
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2 fw-semibold">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Planters
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2 fw-semibold">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Essentials
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-2 fw-semibold">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="border border-dark bg-white" role="search">
+                        <div class="input-group p-1 ">
+                            <img src="./asset/Search.svg" class="input-group-text border-0 bg-white" alt="">
+                            <input class="border-0 w-25" type="search" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Image Planet Banner -->
+        <div><img src="./asset/Rectangle 50Banner.svg" class="img-fluid w-100 " alt=""></div>
+
+
+
+        <!-- Flower Image  Banner -->
+        <div class="container col-10 p-0  my-5 ">
+            <div class="d-flex justify-content-end text-success">
+                <a href="#" class="text-success">See all <span class="ms-2"><img src="./asset/Right Arrow.svg"
+                            class="img-fluid" alt=""></span></a>
+            </div>
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card border-0">
+                            <img src="./asset/flower.svg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class="card-title text-center fw-semibold">BONSAI</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="card border-0">
+                            <img src="./asset/CACTUS.svg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class=" text-center fw-semibold">CACTUS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="card border-0">
+                            <img src="./asset/CREEPERS.svg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class=" text-center fw-semibold">CREEPERS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0">
+                            <img src="./asset/SUCCULENT.svg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class=" text-center fw-semibold">SUCCULENTS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="card border-0">
+                            <img src="./asset/SEEDS.svg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class=" text-center fw-semibold">SEEDS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0">
+                            <img src="./asset/GIFTING.svg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class=" text-center fw-semibold ">GIFTING</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Best Selling Flowers  -->
+        <div class="container col-10 mb-5 ">
+            <div class="text-center">
+                <h1 class="fw-bold mb-4">Best Selling</h1>
+                <div class="hrbgc w-20 mx-auto">
+                    <hr>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-md-4 justify-content-center d-flex mb-3 mb-md-0">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower 1.svg" class="card-img-top mb-3" alt="">
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Shop Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 justify-content-center d-flex  mb-3 mb-md-0">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower 1.svg" class="card-img-top mb-3 " alt="">
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 justify-content-center d-flex  mb-3 mb-md-0">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower 1.svg" class="card-img-top mb-3" alt="">
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3"> Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--  Trending Plants  -->
+        <div class="container col-10 my-5 py-md-5 py-0  ">
+            <div class="text-center">
+                <h1 class="fw-bold mb-4">Trending Plants</h1>
+                <div class="hrbgc w-20 mx-auto">
+                    <hr>
+                </div>
+            </div>
+            <div class="row g-0 row-gap-4">
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-1.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title"> Jade Terrarium</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-2.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Ficus Benjamina</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-3.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title"> Syngorium Plant</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-4.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title"> Cactus Peruvianus</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-5.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Chlorophytum Lemon</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-6.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Aloe Rauhii</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3  col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-7.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Areca Palm</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower2-8.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title"> Sansevieria Black</h5>
+                            <p class="card-text">$ 350 </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  Blogs  -->
+        <div class="container col-10 my-5">
+            <div class="text-center">
+                <h1 class="fw-bold mb-4">Blogs</h1>
+                <div class="hrbgc w-20 mx-auto">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <img src="./asset/Blog Card 1.svg" alt="" class="card-img-top ">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <img src="./asset/Blog Card 2.svg" alt="" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  Hot Sale  -->
+        <div class="container col-10 my-5 py-md-5 py-0">
+            <div class="text-center">
+                <h1 class="fw-bold mb-4">Hot Sale</h1>
+                <div class="hrbgc w-20 mx-auto">
+                    <hr>
+                </div>
+            </div>
+            <div class="row g-0 row-gap-4">
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-1.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title"> Adenium Plant</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span> </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-2.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Ficus Twilight</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span></p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-3.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Rhoeo Plant</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span></p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-4.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Ctenanthe burle</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span></p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  Planters  -->
+        <div class="container col-10 my-5 py-5">
+            <div class="text-center">
+                <h1 class="fw-bold mb-4">Planters</h1>
+                <div class="hrbgc w-20 mx-auto">
+                    <hr>
+                </div>
+            </div>
+            <div class="row g-0 row-gap-4">
+                <div class="col-md-3 col-sm-6  justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-1.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title"> Tale Pot</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span> </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-2.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Ice Cream Pot</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span> </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-3.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Beige Fracture</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span> </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 justify-content-center d-flex">
+                    <div class="card" style="width: 92%;">
+                        <div class="card-body">
+                            <img src="./asset/Flower3-4.svg" class="card-img-top mb-3" alt="">
+                            <h5 class="card-title">Mint Fusion</h5>
+                            <p class="card-text">$ 350 <span class="text-decoration-line-through fs fw-light">$
+                                    450</span> </p>
+                            <button type="button" class="btn btn-success w-100 btn-lg p-3">Buy </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--  Landscape Gardening  -->
+        <div class="container col-10 my-5">
+            <div class="row g-0">
+                <div class="col-lg-6 mb-4 mb-lg-0 d-flex align-items-center">
+                    <div>
+                        <h1 class="fw-bold"> Landscape Gardening</h1>
+                        <div class="hrbgc w-25 mb-lg-4 mb-0">
+                            <hr>
+                        </div>
+                        <p class="lh-lg">Whether it is growing your own food or setting
+                            up your roof-top garden, we provide the highest
+                            quality landscaping services, contributing to a greener world and substantial living!</p>
+
+                        <p class="mb-lg-4 "> Schedule your service appointment today!</p>
+
+                        <p class="mb-lg-4 fst-italic"> *Service only available in Telangana and AndhraPradesh.</p>
+                        <button type="button" class="btn btn-success bt-lg px-5 p-3">Book Now!</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="./asset/scenario.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--  Celebs Grid Pictures  -->
+        <div class="container col-10 my-5 py-md-4">
+            <div class="text-center">
+                <h1 class="fw-bold mb-4">Celebs You Love, Love Us </h1>
+                <div class="hrbgc w-20 mx-auto">
+                    <hr>
+                </div>
+            </div>
+            <div class="row g-0 ">
+                <div class="col-md-3 col-sm-6 text-center text-md-start"><img src="./asset/celeb 1.svg" alt=""
+                        class="img-fluid"></div>
+                <div class="col-md-3 col-sm-6 text-center text-md-start"><img src="./asset/celeb 2.svg" alt=""
+                        class="img-fluid"> </div>
+                <div class="col-md-3 col-sm-6 text-center text-md-start"><img src="./asset/celeb 3.svg" alt=""
+                        class="img-fluid"></div>
+                <div class="col-md-3 col-sm-6 text-center text-md-start"><img src="./asset/celeb 4.svg" alt=""
+                        class="img-fluid"></div>
+                <div class="col-sm-4"><img src="./asset/celeb 5.svg" alt="" class="img-fluid"></div>
+                <div class="col-sm-4"><img src="./asset/celeb 6.svg" alt="" class="img-fluid"></div>
+                <div class="col-sm-4"><img src="./asset/celeb 7.svg" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+
+
+        <!-- Footer Division -->
+        <div class="bg-success text-white">
+            <div class="container-fluid col-10">
+                <div class="row g-0 d-flex align-items-center py-5 pb-3">
+                    <div class="col-lg-8">
+                        <div class="row g-0">
+                            <div class="col-md-5 mb-4 mb-md-0"> <img src="./asset/PAP Logo 2.svg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-md-7">
+
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <ul>
+                                            <li class="fw-bold">Quick Links</li>
+                                            <li>About Us</li>
+                                            <li>Bulk order</li>
+                                            <li>Gifts</li>
+                                            <li>Organic Garden</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul>
+                                            <li class="fw-bold">Legal</li>
+                                            <li>T & C</li>
+                                            <li>Privacy Policy</li>
+                                            <li>Returns</li>
+                                            <li>Shipping</li>
+                                            <li>Cancellation</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul>
+                                            <li class="fw-bold">Support</li>
+                                            <li>FAQS</li>
+                                            <li>Contact Us</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row g-0 text-center">
+                            <div class="col-sm-6 mb-3 mb-sm-0"><img src="./asset/Compant Badge.svg" alt=""
+                                    class="img-fluid me-4"></div>
+                            <div class="col-sm-6">
+                                <p>© 2021 Plan A Plant
+                                    All Rights Reserved</p>
+                                <div class="mt-5"><span> <img src="./Facebook.svg" alt=""
+                                            class="img-fluid me-2"></span><span> <img src="./asset/Twitter.svg" alt=""
+                                            class="img-fluid me-2"></span><span> <img src="./asset/Instagram.svg" alt=""
+                                            class="img-fluid me-2"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer  -->
+        <div class="bg-danger p-2">
+            <div class="d-flex align-items-start justify-content-center gap-md-3">
+                <p>We facilitate your payments through trusted gateways</p>
+                <img src="./asset/visa.svg" alt=""> <img src="./asset/master.svg" alt=""> <img src="./asset/american.svg" alt=""> <img
+                    src="./asset/Rupay.svg" alt="">
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap CDN js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Cdn Js links -->
+
+    <!-- 1. Owl Carousel jquery.min.js Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <!-- 2. Owl Carousel min.js Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 6,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            nav: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                767: {
+                    items: 3
+                },
+                990: {
+                    items: 5
+                },
+                1150: {
+                    items: 6
+                }
+            }
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })</script>
+
+
+
+
+</body>
+
+</html>
